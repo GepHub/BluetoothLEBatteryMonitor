@@ -6,7 +6,7 @@ namespace BluetoothLEBatteryMonitor
     static class Program
     {
         /// <summary>
-        /// 应用程序的主入口点。
+        /// The main entry point to the application.
         /// </summary>
         [STAThread]
         static void Main()

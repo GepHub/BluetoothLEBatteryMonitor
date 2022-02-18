@@ -1,9 +1,10 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
-// 有关程序集的一般信息由以下
-// 控制。更改这些特性值可修改
-// 与程序集关联的信息。
+// General information about the assembly is controlled by the following
+// Control. Changing the values of these characteristics modifies the
+// the information associated with the assembly.
 [assembly: AssemblyTitle("BluetoothLEBatteryMonitor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
@@ -13,23 +14,24 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// 将 ComVisible 设置为 false 会使此程序集中的类型
-//对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型
-//请将此类型的 ComVisible 特性设置为 true。
+// Setting ComVisible to false will make the type in this assembly
+// invisible to COM components. If you need to access a type in this assembly from COM
+// Please set the ComVisible feature of this type to true.
 [assembly: ComVisible(false)]
 
-// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
+// If this item is public to COM, the following GUID is used for the type library ID
 [assembly: Guid("38c15347-dac5-46f1-863d-251ef489bb59")]
 
-// 程序集的版本信息由下列四个值组成: 
+// The version information of the assembly consists of the following four values: 
 //
-//      主版本
-//      次版本
-//      生成号
-//      修订号
+// Primary version
+// Secondary version
+// Generate number
+// Revision number
 //
-//可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值
-//通过使用 "*"，如下所示:
+// You can specify all these values, or you can use the default values for the "generation number" and "revision number"
+// By using "*", as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("en")]
